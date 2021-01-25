@@ -1,66 +1,66 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d5d760602dc283e0938b",
+    "revision": "c8646c462af422daceb6",
     "url": "/public/assets/css/about.css"
   },
   {
-    "revision": "5ba071aef5cef1e012ca",
+    "revision": "a3fb38cd7a732b01d580",
     "url": "/public/assets/css/app.css"
   },
   {
-    "revision": "37f1d0ec1865e048189c",
+    "revision": "fa4a2cdea6f41469d74c",
     "url": "/public/assets/css/chunk-14fc1619.css"
   },
   {
-    "revision": "e327c5c4f2746a058902",
+    "revision": "93aa829f05278926e0f3",
     "url": "/public/assets/css/chunk-5453ccfb.css"
   },
   {
-    "revision": "61c76bb821c192bd3c62",
+    "revision": "128aca345d34ed0fd59f",
     "url": "/public/assets/css/chunk-a8a06640.css"
   },
   {
-    "revision": "36cb3fb9aca3f2b107fe",
+    "revision": "9d63187c2ead64b9d5af",
     "url": "/public/assets/css/randomuser.css"
   },
   {
-    "revision": "281891bab755a77e5fb1",
+    "revision": "a17c2b77babcc7440759",
     "url": "/public/assets/css/tab01.css"
   },
   {
-    "revision": "f5aabbe5b47207017e5f",
+    "revision": "fb20e127e707a2bde52a",
     "url": "/public/assets/css/tab02.css"
   },
   {
-    "revision": "98768cca14a088ced977",
+    "revision": "1d3c53b200548e413e21",
     "url": "/public/assets/css/vue01.css"
   },
   {
-    "revision": "f90d754384150a006536",
+    "revision": "824924fa8c2091904ea8",
     "url": "/public/assets/css/vue02.css"
   },
   {
-    "revision": "d5d760602dc283e0938b",
+    "revision": "c8646c462af422daceb6",
     "url": "/public/assets/js/about.js"
   },
   {
-    "revision": "5ba071aef5cef1e012ca",
+    "revision": "a3fb38cd7a732b01d580",
     "url": "/public/assets/js/app.js"
   },
   {
-    "revision": "3a45c42777b39b8faf98",
+    "revision": "5c2bdfeb269f9d733da2",
     "url": "/public/assets/js/carousel.js"
   },
   {
-    "revision": "37f1d0ec1865e048189c",
+    "revision": "fa4a2cdea6f41469d74c",
     "url": "/public/assets/js/chunk-14fc1619.js"
   },
   {
-    "revision": "e327c5c4f2746a058902",
+    "revision": "93aa829f05278926e0f3",
     "url": "/public/assets/js/chunk-5453ccfb.js"
   },
   {
-    "revision": "61c76bb821c192bd3c62",
+    "revision": "128aca345d34ed0fd59f",
     "url": "/public/assets/js/chunk-a8a06640.js"
   },
   {
@@ -76,7 +76,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/public/assets/js/myapp.js"
   },
   {
-    "revision": "36cb3fb9aca3f2b107fe",
+    "revision": "9d63187c2ead64b9d5af",
     "url": "/public/assets/js/randomuser.js"
   },
   {
@@ -84,19 +84,19 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/public/assets/js/skipButton.js"
   },
   {
-    "revision": "281891bab755a77e5fb1",
+    "revision": "a17c2b77babcc7440759",
     "url": "/public/assets/js/tab01.js"
   },
   {
-    "revision": "f5aabbe5b47207017e5f",
+    "revision": "fb20e127e707a2bde52a",
     "url": "/public/assets/js/tab02.js"
   },
   {
-    "revision": "98768cca14a088ced977",
+    "revision": "1d3c53b200548e413e21",
     "url": "/public/assets/js/vue01.js"
   },
   {
-    "revision": "f90d754384150a006536",
+    "revision": "824924fa8c2091904ea8",
     "url": "/public/assets/js/vue02.js"
   },
   {
