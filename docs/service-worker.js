@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/public/precache-manifest.6d90960ee9f87679156c559153ef724d.js"
+  "precache-manifest.668c6ab07811aa880f54c5d793cdfebd.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "vue-cli-2021-dist"});
