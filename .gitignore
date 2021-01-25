@@ -1,5 +1,6 @@
 .DS_Store
 node_modules
+.gitattributes
 
 # local env files
 .env.local

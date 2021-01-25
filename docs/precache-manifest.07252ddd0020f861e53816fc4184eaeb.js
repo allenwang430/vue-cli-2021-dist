@@ -125,7 +125,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   },
   {
     "revision": "e41caa41478df2e0b97606a1591bb30e",
-    "url": "data/sliderInfo.json"
+    "url": "data/sliderinfo.json"
   },
   {
     "revision": "d41d8cd98f00b204e9800998ecf8427e",
