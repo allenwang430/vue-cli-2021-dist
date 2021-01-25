@@ -4,7 +4,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "assets/css/about.css"
   },
   {
-    "revision": "0fea4e855fa4910e64ba",
+    "revision": "b6603029cba499d212c4",
     "url": "assets/css/app.css"
   },
   {
@@ -44,11 +44,11 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "assets/js/about.js"
   },
   {
-    "revision": "0fea4e855fa4910e64ba",
+    "revision": "b6603029cba499d212c4",
     "url": "assets/js/app.js"
   },
   {
-    "revision": "5c2bdfeb269f9d733da2",
+    "revision": "11884ca464dfc2f529c5",
     "url": "assets/js/carousel.js"
   },
   {

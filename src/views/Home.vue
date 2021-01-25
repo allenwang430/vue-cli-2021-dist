@@ -76,7 +76,7 @@ export default {
   created() {
     //線上url前綴 - /project-vue/dist/data/
     //本機url前綴 - /data/
-    const onlineUrl = "/data/";
+    const onlineUrl = "/vue-cli-2021-dist/data/";
     //宣告 ajax 物件
     let meal_home = {
       name: "home-data",
