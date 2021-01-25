@@ -4,7 +4,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "assets/css/about.css"
   },
   {
-    "revision": "b6603029cba499d212c4",
+    "revision": "adc08058cb54f8fb8061",
     "url": "assets/css/app.css"
   },
   {
@@ -20,7 +20,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "assets/css/chunk-a8a06640.css"
   },
   {
-    "revision": "9d63187c2ead64b9d5af",
+    "revision": "c39bcb1dbd2f7c398bd7",
     "url": "assets/css/randomuser.css"
   },
   {
@@ -36,7 +36,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "assets/css/vue01.css"
   },
   {
-    "revision": "824924fa8c2091904ea8",
+    "revision": "b39a22dc3448a1113e1d",
     "url": "assets/css/vue02.css"
   },
   {
@@ -44,7 +44,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "assets/js/about.js"
   },
   {
-    "revision": "b6603029cba499d212c4",
+    "revision": "adc08058cb54f8fb8061",
     "url": "assets/js/app.js"
   },
   {
@@ -64,7 +64,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "assets/js/chunk-a8a06640.js"
   },
   {
-    "revision": "0d55906d918edb4b685c",
+    "revision": "8742030e3823bec90e84",
     "url": "assets/js/chunk-vendors.js"
   },
   {
@@ -76,7 +76,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "assets/js/myapp.js"
   },
   {
-    "revision": "9d63187c2ead64b9d5af",
+    "revision": "c39bcb1dbd2f7c398bd7",
     "url": "assets/js/randomuser.js"
   },
   {
@@ -96,12 +96,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "assets/js/vue01.js"
   },
   {
-    "revision": "824924fa8c2091904ea8",
+    "revision": "b39a22dc3448a1113e1d",
     "url": "assets/js/vue02.js"
-  },
-  {
-    "revision": "68686acc1e19a8974520e65d6f9a75cd",
-    "url": "data/AgqYcfAT-FctPAkow.mp4"
   },
   {
     "revision": "a7d7818714a459e17daa8ed26f740774",
@@ -174,9 +170,5 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "b6216d61c03e6ce0c9aea6ca7808f7ca",
     "url": "robots.txt"
-  },
-  {
-    "revision": "34a329dd71ff7f9f29f4583784cf50f2",
-    "url": "tracks/track.vtt"
   }
 ]);

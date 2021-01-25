@@ -2,7 +2,7 @@ module.exports = {
   /* 保存時進行 eslint 檢測 */
   lintOnSave: false,
   /* 增加開發環境的編譯器 (打包時要改為 false) */
-  runtimeCompiler: true,
+  runtimeCompiler: false,
   // 設置打包路徑
   /* 部署生產環境和開發環境的URL:可對當前環境進行區分 */
   publicPath: "./",
