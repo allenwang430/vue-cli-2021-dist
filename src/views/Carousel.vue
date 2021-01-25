@@ -79,12 +79,15 @@ export default {
     const onlineUrl = "/vue-cli-2021-dist/data/";
 
     // 最基本的 axios 運用
-    const axios = require("axios");
-    let url = `${onlineUrl}sliderinfo.json`;
-    axios
-      .get(url)
-      .then((response) => {
-        //console.log(response);
+    let sliderInfoAj = {
+      name: "sliderinfo",
+      url: `${onlineUrl}sliderinfo.json`,
+      data: "",
+      type: "get",
+    };
+    this.ajaxMix(sliderInfoAj)
+      .then((data) => {
+        //console.log(data);
         this.sliderInfo = response.data;
       })
       .catch((error) => {
