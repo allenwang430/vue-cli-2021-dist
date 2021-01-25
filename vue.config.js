@@ -5,7 +5,7 @@ module.exports = {
   runtimeCompiler: true,
   // 設置打包路徑
   /* 部署生產環境和開發環境的URL:可對當前環境進行區分 */
-  publicPath: "./",
+  // publicPath: "./",
   publicPath: process.env.NODE_ENV === 'production' ? '/public/' : './',
   /* 打包時輸出的資料夾名稱 */
   outputDir: 'docs',
