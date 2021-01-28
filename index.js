@@ -7,7 +7,7 @@ app.get('/', (req, res) => {
 })
 
 // start a server on port 8080
-const server = app.listen(8080, () => {
+const server = app.listen(80, () => {
   const port = server.address().port
-  console.log('Example app listening on port ???', port)
+  console.log('Example app listening on port ----- 80', port)
 })
