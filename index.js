@@ -7,7 +7,7 @@ app.get('/', (req, res) => {
 })
 
 // start a server on port 9090
-const server = app.listen(7777, () => {
+const server = app.listen(9090, () => {
   const port = server.address().port
-  console.log('Example app listening on port ----- 7777', port)
+  console.log('Example app listening on port ----- 9090', port)
 })
