@@ -6,8 +6,8 @@ app.get('/', (req, res) => {
   res.send('Hello World! This is simple express server')
 })
 
-// start a server on port 8080
-const server = app.listen(80, () => {
+// start a server on port 9090
+const server = app.listen(9090, () => {
   const port = server.address().port
-  console.log('Example app listening on port ----- 80', port)
+  console.log('Example app listening on port ----- 9090', port)
 })
