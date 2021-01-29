@@ -3,20 +3,22 @@
     <!-----<HelloWorld msg="HelloWorld" />-------->
     <div
       class="container-fluid bg-accent bg-position-center bg-size-cover py-3 py-sm-5"
-      style="background-image: url(img/picture/bg-001.jpg);"
+      style="background-image: url(img/picture/bg-001.jpg)"
     >
       <!-- Three columns of text below the carousel -->
       <div class="container">
         <div class="row">
           <div class="col align-self-center">
-            <h1 class="display-3">{{this.keyView.title}}</h1>
-            <p class="lead">{{this.keyView.des}}</p>
+            <h1 class="display-3">{{ this.keyView.title }}</h1>
+            <h2>這是 H2</h2>
+            <p class="lead">{{ this.keyView.des }}</p>
             <p>
               <a
                 class="btn btn-secondary"
                 :href="this.keyView.btnLink"
                 role="button"
-              >{{this.keyView.btn}}</a>
+                >{{ this.keyView.btn }}</a
+              >
             </p>
           </div>
         </div>
@@ -30,12 +32,22 @@
 
       <hr class="featurette-divider" />
 
-      <div class="row featurette" v-for="(value, index) in featurette" :key="index">
-        <div class="col-md-7" :class="{'order-md-last': index % 2,'order-md-first': !index % 2}">
-          <h2 class="featurette-heading">{{value.title}}</h2>
-          <p class="lead">{{value.des}}</p>
+      <div
+        class="row featurette"
+        v-for="(value, index) in featurette"
+        :key="index"
+      >
+        <div
+          class="col-md-7"
+          :class="{ 'order-md-last': index % 2, 'order-md-first': !index % 2 }"
+        >
+          <h2 class="featurette-heading">{{ value.title }}</h2>
+          <p class="lead">{{ value.des }}</p>
         </div>
-        <div class="col-md-5" :class="{'order-md-first': index % 2,'order-md-last': !index % 2}">
+        <div
+          class="col-md-5"
+          :class="{ 'order-md-first': index % 2, 'order-md-last': !index % 2 }"
+        >
           <img class="img-fluid" :src="value.picUrl" />
         </div>
       </div>
@@ -54,12 +66,12 @@ import HelloWorld from "@/components/HelloWorld.vue";
 
 export default {
   components: {
-    HelloWorld
+    HelloWorld,
   },
   data() {
     return {
       keyView: {},
-      featurette: []
+      featurette: [],
     };
   },
   created() {
@@ -71,10 +83,10 @@ export default {
       name: "home-data",
       url: `${onlineUrl}home.json`,
       data: "",
-      type: "get"
+      type: "get",
     };
     //將首頁的資料存入data
-    this.ajaxMix(meal_home).then(data => {
+    this.ajaxMix(meal_home).then((data) => {
       this.keyView = data.keyView;
       this.featurette = data.featurette;
     });
@@ -88,17 +100,17 @@ export default {
           url: item.url,
           data: item.data,
           dataType: "json",
-          success: function(data) {
+          success: function (data) {
             //console.log("ajaxMix-計數");
             resolve(data);
           },
-          error: function(err) {
+          error: function (err) {
             reject(err);
-          }
+          },
         });
       });
-    }
-  }
+    },
+  },
 };
 </script>
 <style>
