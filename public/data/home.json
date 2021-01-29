@@ -1,0 +1,25 @@
+{
+  "keyView": {
+    "title": "Lorem ipsum dolor sit amet",
+    "des": "Aliquet amet tellus. Morbi blandit cursus risus at ultrices.",
+    "btn": "View details »",
+    "btnLink": "https://getbootstrap.com/"
+  },
+  "featurette": [
+    {
+      "title": "First featurette heading. It’ll blow your mind.",
+      "des": "Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.",
+      "picUrl": "img/picture/grid-001.jpg"
+    },
+    {
+      "title": "Oh yeah, it’s that good. See for yourself.",
+      "des": "Feugiat nibh sed pulvinar proin gravida hendrerit lectus. Feugiat vivamus at augue eget arcu dictum varius. Lacus vestibulum sed arcu non odio euismod.",
+      "picUrl": "img/picture/grid-002.jpg"
+    },
+    {
+      "title": "And lastly, this one. Checkmate.",
+      "des": "Quisque egestas diam in arcu cursus euismod quis. Aliquam nulla facilisi cras fermentum odio. Suscipit tellus mauris a diam. Faucibus a pellentesque sit amet porttitor. ",
+      "picUrl": "img/picture/grid-003.jpg"
+    }
+  ]
+}
