@@ -88,7 +88,7 @@
 
 <script>
 export default {
-  name: "Jenkins",
+  name: "HelloWorld",
   props: {
     msg: String,
   },
