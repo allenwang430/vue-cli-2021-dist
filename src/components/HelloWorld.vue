@@ -2,12 +2,10 @@
   <div class="hello">
     <h1>{{ msg }}</h1>
     <h2>Kyart</h2>
+    <p>2021/2/5 開始作業 , pm 18:57</p>
     <p>
-      2021/2/5 開始作業 , pm 17:05<br />
-      For a guide and recipes on how to configure / customize this project,<br />
-      check out the
       <a href="https://cli.vuejs.org" target="_blank" rel="noopener"
-        >vue-cli documentation</a
+        >vue-cli 官方手冊</a
       >.
     </p>
     <h3>CI / CD 工具</h3>
