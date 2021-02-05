@@ -1,6 +1,6 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png" />
-  <HelloWorld msg="Used Vue.js in Jenkins" />
+  <HelloWorld msg="Update By Jenkins" />
 </template>
 
 <script>
