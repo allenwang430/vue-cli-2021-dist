@@ -1,8 +1,8 @@
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
-    <h2>Kyart</h2>
-    <p>-------------- 2021/2/5 開始作業, pm 19:30 !! --------------</p>
+    <h2>Allen</h2>
+    <p>-------------- 2021/2/10 過年作業, pm 17:25 !! --------------</p>
     <p>
       <a href="https://cli.vuejs.org" target="_blank" rel="noopener"
         >vue-cli 官方手冊</a

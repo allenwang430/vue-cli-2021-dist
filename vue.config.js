@@ -5,8 +5,8 @@ module.exports = {
   runtimeCompiler: true,
   // 設置打包路徑
   /* 部署生產環境和開發環境的URL:可對當前環境進行區分 */
-  publicPath: "./",
-  // publicPath: process.env.NODE_ENV === 'production' ? '/public/' : './',
+  // publicPath: "./",
+  publicPath: process.env.NODE_ENV === 'production' ? '/public/' : './',
   /* 打包時輸出的資料夾名稱 */
   outputDir: 'dist',
   /* 放置生成的靜態資源(js、css、img、fonts),相對於 outputDir 的目錄 */
@@ -20,24 +20,22 @@ module.exports = {
   /* 默認情況下，生成的靜態資源在它們的文件名中包含了 hash 以便更好的控制緩存，你可以通過將這個選項設為 false 來關閉文件名哈希。 (false的時候就是讓原來的文件名不改變) */
   filenameHashing: false,
   /* webpack-dev-server 相關配置 */
+  /*
   devServer: {
     open: process.platform === "darwin",
-    /* 設置0.0.0.0為所有地址都可以訪問 */
-    host: '0.0.0.0',
+    host: '0.0.0.0', // 設置0.0.0.0為所有地址都可以訪問
     port: 8787,
     https: false,
     hotOnly: false,
     proxy: {
       '/api': {
-        /* 目標代理伺服器地址 */
-        // target: 'http://47.100.47.3/',
-        /* 允許跨域 */
-        changeOrigin: true,
+        // target: 'http://47.100.47.3/', // 目標代理伺服器地址
+        changeOrigin: true, // 允許跨域
       },
     },
     disableHostCheck: true,
   }
-
+  */
   //build url fix
   //publicPath: './',
   /*
