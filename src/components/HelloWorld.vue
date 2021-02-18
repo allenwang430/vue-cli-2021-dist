@@ -3,6 +3,7 @@
     <h1>{{ msg }}</h1>
     <h2>Allen</h2>
     <p>-------------- 2021/2/18 放完架開工了 !!! --------------</p>
+    <p>-------------- 現在時間 15:07 --------------</p>
     <p>
       <a href="https://cli.vuejs.org" target="_blank" rel="noopener"
         >vue-cli 官方手冊</a
