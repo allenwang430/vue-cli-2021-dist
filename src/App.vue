@@ -1,28 +1,25 @@
 <template>
-  <div>
-    <img alt="Vue logo" src="./assets/logo.png" />
-    <HelloWorld msg="Update By Jenkins" />
+  <div id="app">
+    <Header></Header>
+    <router-view></router-view>
+    <Footer></Footer>
   </div>
 </template>
-
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
-
+import Header from "@/components/Header.vue";
+import Footer from "@/components/Footer.vue";
+//import Vue from "vue";
 export default {
   name: "App",
   components: {
-    HelloWorld,
+    Header,
+    Footer
   },
+  mounted() {
+    //console.log(Vue.options);
+  }
 };
-</script>
-
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 80px;
-}
+</script>>
+<style lang="scss">
+@import "./assets/css/style";
 </style>

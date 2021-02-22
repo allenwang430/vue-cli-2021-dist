@@ -1,4 +1,22 @@
-import { createApp } from 'vue'
-import App from './App.vue'
+import Vue from "vue";
+import App from "./App.vue";
+import "./registerServiceWorker";
+import router from "./router";
+import store from "./store";
+//引用axios
+//import axios from "axios";
 
-createApp(App).mount('#app')
+//引入 bootstrap js, css 則是在 app.vue
+import "bootstrap";
+// 讓瀏覽器的全域環境可以使用到 $
+import jQuery from "jquery";
+window.$ = window.jQuery = jQuery;
+
+Vue.config.productionTip = false;
+
+
+new Vue({
+  router,
+  store,
+  render: h => h(App)
+}).$mount("#app");

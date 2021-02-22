@@ -1,4 +1,4 @@
-# vue-cli-2021-dist
+# project-vue
 
 ## Project setup
 ```
