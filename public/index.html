@@ -6,9 +6,13 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <link rel="icon" href="<%= BASE_URL %>favicon.ico">
     <!----------- gpt ------------->
+    <script async="async" src="https://www.googletagservices.com/tag/js/gpt.js"></script>
     <script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script>
     <script>
-      window.googletag = window.googletag || {cmd: []};
+      var googletag = googletag || {};
+      googletag.cmd = googletag.cmd || [];
+    </script>
+    <script>
       googletag.cmd.push(function() {
         googletag.defineSlot('/31436032/HBR2017_728x90_top', [[300, 100], [728, 90]], 'div-gpt-ad-1484821246922-0').addService(googletag.pubads());
         googletag.pubads().enableSingleRequest();
@@ -29,6 +33,9 @@
     <div class="row">
       <div style="width: 100%;text-align: center;">
         <div id='div-gpt-ad-1484821246922-0'>
+          <script>
+            googletag.cmd.push(function() { googletag.display('div-gpt-ad-1484821246922-0'); });
+          </script>
         </div>
       </div>
     </div>
